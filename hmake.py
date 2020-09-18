@@ -4,7 +4,7 @@ import sys
 from datetime import date
 
 today = date.today()
-header = ["/*###########################################","","Written by hmake for Lahral", "", "###########################################*/"]
+header = ["/*###########################################","","Written by hmake", "", "###########################################*/"]
 hheader = ["#ifndef ","#define ", "#endif"]
 
 platform = sys.platform()
